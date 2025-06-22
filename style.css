@@ -1,0 +1,158 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+    
+}
+.first
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+header
+{
+    
+    height:175px;
+    background-color:#ADD8E6;
+    margin-left: 323px;
+    margin-top: 51px;
+    width:701px;
+    position: relative;
+    border-radius: 8px;
+    
+}
+.a
+{
+    height:200px;  
+    
+.a1
+{
+    position: absolute;
+    top:20px;
+    left:116px;
+    font-family:"Delius", cursive;
+    color:#4682B4 ;
+    font-size: large;
+}
+}
+.a2
+{
+   position:absolute;
+   top:64px;
+   left:144px;
+   font-family:"Rouge Script", cursive;
+   color: #005A9C;
+}
+
+hr
+{
+    border-color: #87CEEB;
+    width: 40%;
+    position: absolute;
+    top:189px;
+    left: 581px;
+    border-top: 1px dashed;
+   
+}
+.b
+{   margin-top:-5px;
+    display:flex;
+    flex-direction: row;
+    
+}
+aside
+{
+    width:33%;
+    height:1500px;
+    background-color: #B0C4DE;
+    display:flex;
+    flex-direction: column;
+    gap:63px;
+    
+    
+}
+.b1
+{
+    padding-left:33px;
+    padding-top:50px;
+}
+.b1-data
+{
+    padding-left:10px;
+    padding-top:32px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.b1-contact
+{
+    color:#003153;
+    font-family:"Yellowtail", cursive;
+    font-size: 33px;
+}
+.b1-mail
+{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+.b1-gmail
+{
+    font-size: 26px;
+}
+
+.b2
+{
+    padding-left:12px;
+    padding-top:50px;
+}
+.b2-ed
+{
+    color:#003153;
+    font-family:"Yellowtail", cursive;
+    font-size: 33px;
+    padding-left: 35px;
+}
+.b2-data
+{
+    padding-left:10px;
+    padding-top:32px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.b2-col
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    padding-top: 20px;
+    color:#004687;
+}
+
+li
+{
+    margin: 14px;
+    
+    padding-left:0px;
+    padding-top:10px;
+    font-size: 28px;
+    margin: -28px;
+    font-family: "Yellowtail", cursive;
+    color:#004687;
+}
+main
+{
+    width:70%;
+    height:1500px;
+    background-color:#E0FFFF;
+    
+}
+
