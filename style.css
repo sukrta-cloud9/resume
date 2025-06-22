@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 body{
     margin: 0px;
     padding:0px;
@@ -68,9 +69,9 @@ hr
 }
 aside
 {
-    width:33%;
+    width:35%;
     height:1484px;
-    background-color: #B0C4DE;
+    background-color: #B9D9EB;
     display:flex;
     flex-direction: column;
     gap:63px;
@@ -84,11 +85,13 @@ aside
 }
 .b1-data
 {
-    padding-left:10px;
+    padding-left:-16px;
     padding-top:32px;
     display:flex;
     flex-direction: column;
     gap:20px;
+    font-family:"Delius Swash Caps", cursive; 
+    color:#003153;
 }
 .b1-contact
 {
@@ -126,6 +129,7 @@ aside
     display: flex;
     flex-direction: column;
     gap:20px;
+    
 }
 .b2-col
 {
@@ -135,6 +139,7 @@ aside
     gap:0px;
     padding-top: 20px;
     color:#004687;
+     
 }
 
 li
@@ -145,8 +150,9 @@ li
     padding-top:10px;
     font-size: 28px;
     margin: -28px;
-    font-family: "Yellowtail", cursive;
-    color:#004687;
+    
+    color: #004687;
+    font-family: "Delius Swash Caps", cursive; 
 }
 .b3
 {
@@ -164,6 +170,8 @@ li
 {
     list-style:circle;
     margin:-3px;
+    font-family: "Delius Swash Caps", cursive; 
+
 }
 .b4
 {
@@ -181,6 +189,7 @@ li
 {
     list-style:none;
     margin:-3px;
+    font-family: "Delius Swash Caps", cursive; 
 }
 
 
@@ -191,4 +200,66 @@ main
     background-color:#E0FFFF;
     
 }
+.right1
+{
+    background-color:#B9D9EB;
+    width:663px;
+    margin-left:20px;
+    height:28px;
+}
+.right-title1
+{
+    padding-left:15px;
+    padding-top:5px;
+    font-family:"Delius", cursive;
+    color:#2E5090;
+    font:bold;
+}
+.right-para
+{
+    font:bolder;
+    font-size: 24px;
+    line-height: normal;
+    font-family: "Tangerine", cursive;
+}
+.right2
+{
+    background-color:#B9D9EB;
+    width:663px;
+    margin-left:20px;
+    height:28px;
+    margin-left:19px;
+    margin-top:241px;
+}
+.right-title2
+{
+    padding-left:15px;
+    padding-top:5px;
+    font-family:"Delius", cursive;
+    color:#2E5090;
+    font:bold;
+}
+.right-content
+{
+    font-size: 25px;
+}
+.right3
+{
+    background-color:#B9D9EB;
+    width:663px;
+    margin-left:20px;
+    height:28px;
+    margin-left:19px;
+    margin-top:104px;
+}
+.right-title3
+{
+    padding-left:15px;
+    padding-top:5px;
+    font-family:"Delius", cursive;
+    color:#2E5090;
+    font:bold;
+}
+
+
 
