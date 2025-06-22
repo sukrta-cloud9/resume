@@ -70,7 +70,7 @@ hr
 aside
 {
     width:35%;
-    height:1484px;
+    height:1377px;
     background-color: #B9D9EB;
     display:flex;
     flex-direction: column;
@@ -91,13 +91,14 @@ aside
     flex-direction: column;
     gap:20px;
     font-family:"Delius Swash Caps", cursive; 
-    color:#003153;
+    color:#0866aa;
 }
 .b1-contact
 {
     color:#003153;
     font-family:"Yellowtail", cursive;
     font-size: 33px;
+    font-weight: bolder;
 }
 .b1-mail
 {
@@ -121,6 +122,7 @@ aside
     font-family:"Yellowtail", cursive;
     font-size: 33px;
     padding-left: 35px;
+    font-weight: bolder;
 }
 .b2-data
 {
@@ -138,7 +140,7 @@ aside
     flex-direction: column;
     gap:0px;
     padding-top: 20px;
-    color:#004687;
+    color:#0866aa;
      
 }
 
@@ -151,7 +153,7 @@ li
     font-size: 28px;
     margin: -28px;
     
-    color: #004687;
+    color: #01396e;
     font-family: "Delius Swash Caps", cursive; 
 }
 .b3
@@ -165,12 +167,15 @@ li
     font-family:"Yellowtail", cursive;
     font-size: 33px;
     padding-left:25px;
+    font-weight: bolder;
 }
 .b3-list li
 {
     list-style:circle;
     margin:-3px;
     font-family: "Delius Swash Caps", cursive; 
+    color:#0866aa;
+    font-size: 26px;
 
 }
 .b4
@@ -184,20 +189,23 @@ li
     font-family:"Yellowtail", cursive;
     font-size: 33px;
     padding-left:25px;
+    font-weight: bolder;
 }
 .b4-list li
 {
     list-style:none;
     margin:-3px;
     font-family: "Delius Swash Caps", cursive; 
+    color:#0866aa;
+    font-size: 26px;
 }
 
 
 main
 {
     width:70%;
-    height:1484px;
-    background-color:#E0FFFF;
+    height:1377px;
+    background-color:#fff;
     
 }
 .right1
@@ -250,7 +258,7 @@ main
     margin-left:20px;
     height:28px;
     margin-left:19px;
-    margin-top:104px;
+    margin-top:156px;
 }
 .right-title3
 {
@@ -260,6 +268,91 @@ main
     color:#2E5090;
     font:bold;
 }
+.right-content2
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+    padding-top:20px;
+    font-size: 19px;
+
+    font-weight:500;
+}
+.right4
+{
+    background-color:#B9D9EB;
+    width:663px;
+    margin-left:20px;
+    height:28px;
+    margin-left:19px;
+    margin-top:242px;
+}
+.right-project1
+{
+    display: flex;
+    flex-direction: column;
+    gap:65px;
+    padding-top: 60px;
+}
+.right-body
+{
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+}
+.right-body1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.right-body2
+{
+    
+    font-size: 20px;
+}
+.right-ease
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.right-ease1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.right-ease2
+{
+    
+    font-size: 20px;
+}
+.c
+{
+    padding-top:398px;
+}
+.c-heading
+{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height:100px;
+    background-color:#F0F8FF;
+}
+.c-heading1
+{
+    margin-top: 9px;
+    margin-left: 53px;
+    display:flex;
+    gap:17px;
+}
+.c-heading2
+{
+    margin-top: 29px;
+    margin-left: 53px;
+    display:flex;
+    gap:10px;
+}
+
 
 
 
