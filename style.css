@@ -69,7 +69,7 @@ hr
 aside
 {
     width:33%;
-    height:1500px;
+    height:1484px;
     background-color: #B0C4DE;
     display:flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ aside
 .b2
 {
     padding-left:12px;
-    padding-top:50px;
+    padding-top:0px;
 }
 .b2-ed
 {
@@ -148,10 +148,46 @@ li
     font-family: "Yellowtail", cursive;
     color:#004687;
 }
+.b3
+{
+    padding-left:12px;
+    padding-top:-17px;
+}
+.b3-lang
+{
+    color:#003153;
+    font-family:"Yellowtail", cursive;
+    font-size: 33px;
+    padding-left:25px;
+}
+.b3-list li
+{
+    list-style:circle;
+    margin:-3px;
+}
+.b4
+{
+    padding-left:12px;
+    padding-top:0px;
+}
+.b4-interset
+{
+    color:#003153;
+    font-family:"Yellowtail", cursive;
+    font-size: 33px;
+    padding-left:25px;
+}
+.b4-list li
+{
+    list-style:none;
+    margin:-3px;
+}
+
+
 main
 {
     width:70%;
-    height:1500px;
+    height:1484px;
     background-color:#E0FFFF;
     
 }
