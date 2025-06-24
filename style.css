@@ -15,6 +15,10 @@ body{
 {
     margin-left: 200px;
     margin-right: 200px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 header
 {
@@ -31,7 +35,7 @@ header
 .a
 {
     height:200px;  
-    
+}    
 .a1
 {
     position: absolute;
@@ -40,7 +44,6 @@ header
     font-family:"Delius", cursive;
     color:#4682B4 ;
     font-size: large;
-}
 }
 .a2
 {
@@ -57,7 +60,7 @@ hr
     width: 40%;
     position: absolute;
     top:189px;
-    left: 581px;
+    left: 420px;
     border-top: 1px dashed;
    
 }
@@ -354,5 +357,64 @@ main
 }
 
 
+
+@media(max-width:796px)
+{
+    aside
+    {
+        width: 100%;
+    }
+    main
+    {
+        width: 200px;
+        height:max-content;
+    }
+    .b
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    header
+    {
+        width: 100%;
+        margin: 10px;
+    }
+    .first
+    {
+        margin: 10px;
+        overflow-x: hidden;
+    }
+    hr
+    {
+        visibility: hidden;
+    }
+    .right-para
+    {
+        width: 350px;
+        
+    }
+    .right1{
+        width: 460px;
+    }
+    .right-skills1
+    {
+        width: 5px;
+    }
+    .right2
+    {
+        margin-top: 400px;
+        width: 460px;
+    }
+    .right3
+    {
+        width: 460px;
+        margin-top:100px;
+    }
+    .right4
+    {
+        width: 460px;
+        margin-top:250px;
+    }
+}
 
 
